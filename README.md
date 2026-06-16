@@ -4,7 +4,7 @@ Esta é uma API REST desenvolvida em Java com Spring Boot para controle de despe
 
 ---
 
-## 🛠️ Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 
 - **Backend**: Java 17, Spring Boot 3.0.0
 - **Persistência**: Spring Data JPA, Hibernate, PostgreSQL
@@ -15,7 +15,7 @@ Esta é uma API REST desenvolvida em Java com Spring Boot para controle de despe
 
 ---
 
-## 🔒 Melhorias de Segurança Implementadas
+## Melhorias de Segurança Implementadas
 
 - **Correção de Vazamento no Fluxo de Caixa**: 
   Identificamos e corrigimos uma falha de segurança no dashboard onde a consulta do fluxo de caixa (`/api/dashboard`) retornava os títulos de todos os usuários cadastrados no banco de dados.
@@ -28,7 +28,7 @@ Esta é uma API REST desenvolvida em Java com Spring Boot para controle de despe
 
 ---
 
-## 🖥️ Interface Gráfica (Frontend)
+## Interface Gráfica (Frontend)
 
 Criamos uma interface de usuário responsiva e estilizada com **Dark Mode Premium** e **Glassmorphism**, acessível diretamente na raiz do servidor web:
 - **Autenticação**: Telas integradas de Login e Cadastro com armazenamento de JWT no `localStorage`.
@@ -38,7 +38,7 @@ Criamos uma interface de usuário responsiva e estilizada com **Dark Mode Premiu
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
 
 ### 1. Requisitos
 - Java 17 instalado
@@ -64,11 +64,11 @@ mvn spring-boot:run
 ```
 
 A API e o frontend estarão disponíveis em:
-👉 **[http://localhost:8080](http://localhost:8080)**
+**[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-## 📂 Estrutura de Pastas do Frontend
+## Estrutura de Pastas do Frontend
 
 Os recursos visuais estão localizados em:
 - `src/main/resources/static/index.html` (Estrutura)
